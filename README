@@ -1,0 +1,13 @@
+
+Yii 1.1 Creating Yii Application
+ Guide:
+- http://www.yiiframework.com/wiki/392/creating-yii-applications-with-composer/#hh2
+
+yii Database Migrations:
+- http://www.yiiframework.com/doc/guide/1.1/en/database.migration
+
+Composer callback example was got here:
+- https://github.com/limion/yii-tmdbapi-demo-app/blob/master/protected/config/ComposerCallback.php
+
+Migrations:
+- https://github.com/yiiext/migrate-command

@@ -1,0 +1,88 @@
+2017/03/09 16:32:45 [error] [exception.CException] CException: CAssetManager.basePath "/code/assets" is invalid. Please make sure the directory exists and is writable by the Web server process. in /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/code/assets')
+#1 /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(511): CAssetManager->publish('/code/protected...')
+#3 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(548): CClientScript->getCoreScriptUrl()
+#4 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(349): CClientScript->getPackageBaseUrl('jquery')
+#5 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#7 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#8 /code/protected/controllers/SiteController.php(167): CController->render('login', Array)
+#9 /code/protected/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#10 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /code/protected/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#14 /code/protected/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 /code/protected/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /code/index.php(12): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/login
+---
+2017/03/09 16:32:46 [error] [exception.CException] CException: CAssetManager.basePath "/code/assets" is invalid. Please make sure the directory exists and is writable by the Web server process. in /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/code/assets')
+#1 /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(511): CAssetManager->publish('/code/protected...')
+#3 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(548): CClientScript->getCoreScriptUrl()
+#4 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(349): CClientScript->getPackageBaseUrl('jquery')
+#5 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#7 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#8 /code/protected/controllers/SiteController.php(167): CController->render('login', Array)
+#9 /code/protected/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#10 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /code/protected/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#14 /code/protected/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 /code/protected/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /code/index.php(12): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/login
+---
+2017/03/09 16:33:50 [error] [exception.CException] CException: CAssetManager.basePath "/code/assets" is invalid. Please make sure the directory exists and is writable by the Web server process. in /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/code/assets')
+#1 /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(511): CAssetManager->publish('/code/protected...')
+#3 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(548): CClientScript->getCoreScriptUrl()
+#4 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(349): CClientScript->getPackageBaseUrl('jquery')
+#5 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#7 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#8 /code/protected/controllers/SiteController.php(167): CController->render('login', Array)
+#9 /code/protected/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#10 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /code/protected/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#14 /code/protected/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 /code/protected/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /code/index.php(12): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/login
+---
+2017/03/09 16:33:54 [error] [exception.CException] CException: CAssetManager.basePath "/code/assets" is invalid. Please make sure the directory exists and is writable by the Web server process. in /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/code/assets')
+#1 /code/protected/vendor/yiisoft/yii/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(511): CAssetManager->publish('/code/protected...')
+#3 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(548): CClientScript->getCoreScriptUrl()
+#4 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(349): CClientScript->getPackageBaseUrl('jquery')
+#5 /code/protected/vendor/yiisoft/yii/framework/web/CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#7 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#8 /code/protected/controllers/SiteController.php(167): CController->render('login', Array)
+#9 /code/protected/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#10 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /code/protected/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /code/protected/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#14 /code/protected/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 /code/protected/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /code/index.php(12): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/login
+---
