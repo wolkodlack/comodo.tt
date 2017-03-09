@@ -9,6 +9,14 @@
 class TMDb_LoadPoster {
 
 
+    /**
+     * Stores poster at local cache
+     *
+     * FIXME: For real site we have to implement Hashed Directory Structure here
+     *
+     * @param $name
+     * @return string
+     */
     public static function load($name) {
         if (empty($name)) {
             return '- none -';

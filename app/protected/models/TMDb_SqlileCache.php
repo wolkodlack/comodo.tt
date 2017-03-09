@@ -59,13 +59,13 @@ class TMDb_SqlileCache extends CActiveRecord{
     public function populateCacheData($id, $dataIn) {
         $fields = $this->_fieldsForSave;
         $fields = array_intersect_key($fields, array_keys($dataIn) );
-//        var_dump($i);
+
 
         $storeData = array_intersect_key(
             $dataIn,
             array_flip($fields)
         );
-//        var_dump($dataIn);
+
         $storeData['genres'] = serialize($storeData['genres']);
         if(!isset($storeData['poster_path'])) {
             $storeData['poster_path'] = '';
@@ -76,8 +76,7 @@ class TMDb_SqlileCache extends CActiveRecord{
         foreach($fields as $key) {
             $this->{$key} = $storeData[$key];
         }
-//        var_dump($this);
-//die();
+
         $this->save(false);
     }
 
